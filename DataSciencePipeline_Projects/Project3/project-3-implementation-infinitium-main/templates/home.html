@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+  <h2>About our project</h2>
+  <h4> The dashboard provides a visualization of our data for keywords relating abortion, politics and elections which has been collected from Twitter, Reddit and Youtube. The data can be visualized over two options:</h4>
+  <ol>
+    <li><h4>Data by Date : The program takes in a date range as an input and plots a graph depicting the data</h4></li>
+    <li><h4>Popular Hashtags : The program takes in a keyword as an input and retrieves the top five, most popular hashtags related to the keyword</h4></li>
+  </ol>
+  <h4> Implementation </h4>
+  <a href="/data_by_date" class="btn btn-primary" type="submit">Data count by date</a>
+  <a href="/popular_hashtags" class="btn btn-primary" type="submit">Popular Hashtags</a>
+ 
+  <h2></h2>
+  <h4>Sentiment Analysis Question</a></h4>
+  <h4>How conclusive is the sentiment of people on social media towards abortion rights, when it comes to the elections? </h4>
+  <ul>
+    <li><h4>From the data collected using the various forms of social media, we found that there are a lot of records of data condemning Republicans and their views on abortion. We believe that people who support abortion will vote for Democratic candidates. However, it is not conclusive if abortion is THE factor in determining who to vote for.</h4></li>
+  </ul>
+
+{% endblock %}
